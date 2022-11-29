@@ -1,0 +1,28 @@
+.modall .modall-body {
+  height: 400px;
+}
+
+/* .modall table .scroll{
+    height: 200px;
+    overflow-y: auto;
+} */
+.modall table {
+    text-align: center;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.modall table .table-responsive {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/* .modall table tbody tr td {
+  padding: 10px;
+} */
+
+
+
+a{
+    color: #000;
+}

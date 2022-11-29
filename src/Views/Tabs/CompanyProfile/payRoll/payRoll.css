@@ -1,0 +1,261 @@
+.payroll_form .tab_form {
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px #000;
+    margin: 10px 0;
+}
+.payroll_form .tab_form label {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ced4da;
+    background-color: #e2edf1;
+}   
+
+.payroll_form .tab_form .form-check-input{
+    background-color: #fff !important;
+    padding: 7px   ;
+}
+
+
+.payroll_form .tab_form input ,.payroll_form .tab_form select{
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.payroll_form .tab_form .form-floating {
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+.payroll_form .tab_form textarea {
+    height: 165px;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.payroll_form .tab_form .form-check-input{
+    background-color: #fff !important;
+}
+
+
+.payroll_form .tab_form .form-check-input:checked[type=checkbox] {
+    background-color: #0d6efd !important;
+}
+
+.payroll_form .tab_form p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.payroll_form .tab_form input::placeholder,.payroll_form .tab_form select::placeholder{
+    /* color: #fff; */
+    color: #000;
+}
+
+.payroll_form .tab_form input:focus,.payroll_form .tab_form select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+    background-color: #fff;
+    color: #000;
+}
+
+.payroll_form .tab_form .inner_ label {
+    width: 50%;
+    padding: 5px;
+    margin:0;
+    border-bottom: none;
+    border-right: 1px solid #ced4da ;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.payroll_form h5{
+    font-size: 13px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.payroll_form .para{
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.payroll_form .para1{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.payroll_form .tab_form .inner_ label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    border-right: none;
+    background-color: #fff;
+}
+
+
+.payroll_form .tab_form.overtime label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.payroll_form .tab_form.policy label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.payroll_form .delay label{
+    background-color: #fff;
+    border: none;
+    margin: 7px;
+    padding: 0;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+.payroll_form .bcd{
+    font-size: 10px;
+}
+
+.payroll_form .delay label input{
+    width: 10%;
+    margin: 0 10px;
+}
+
+.payroll_form .tab_form.policy .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+    font-size: 10px;
+
+}
+
+.payroll_form .tab_form.policy .inner_ .right{
+    width: 40%;
+}
+
+.payroll_form .tab_form.policy .inner_ .left  {
+    width: 60%;
+}
+
+.payroll_form .tab_form.policy .inner_ .left .left_  {
+    width: 75%;
+    gap: 10px;
+}
+
+.payroll_form .tab_form.policy .inner_ .left .left_ label{
+    text-align: start;
+}
+
+.payroll_form .tab_form.policy .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.payroll_form .tab_form.policy .inner_ .left input,
+.payroll_form .tab_form.policy .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .payroll_form .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.payroll_form .tab_form.policy .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+
+/*  */
+.payroll_form .tab_form.override label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.payroll_form .tab_form.override .inner_ label {
+    display: block;
+    width: 50%;
+    text-align: end;
+
+}
+
+.payroll_form .tab_form.override .inner_ .right{
+    width: 16%;
+}
+
+.payroll_form .tab_form.override .inner_ .left  {
+    width: 84%;
+}
+
+.payroll_form .tab_form.override .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.payroll_form .tab_form.override .inner_ .left input,
+.payroll_form .tab_form.override .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .payroll_form .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.payroll_form .tab_form.override .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+.payroll_form .tab_form.default label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.payroll_form .tab_form.Option label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: auto;
+    padding: 5px  10px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+/* .payroll_form .scheduling  .inner_.head {
+    background-color: #ced4da;
+}
+
+.payroll_form .scheduling .right,.payroll_form .scheduling .left{
+    flex: 1;
+}
+
+.payroll_form .scheduling .mid{
+    flex: auto;
+} */
+

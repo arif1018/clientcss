@@ -1,0 +1,12 @@
+.education_form .emp_history{
+    width: 693px;
+    display: flex;
+    justify-content:end;
+}
+
+.education_form .emp_history1{
+    width: 543px;
+    display: flex;
+    justify-content: end;
+}
+

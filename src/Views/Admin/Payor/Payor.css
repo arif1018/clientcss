@@ -1,0 +1,591 @@
+.main_credentials {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main_credentials .cennt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding-top: 10%; */
+    /* padding-bottom: 5%; */
+}
+
+.credentials_form2 .inner_ .div__credentials{
+    display: flex;
+    margin-top: 5px;
+}
+
+.credentials_form {
+    /* height: 400px; */
+    height: fit-content;
+    border-radius: 0.25rem;
+    box-shadow: 0.5px .5px 3px #000;
+    overflow: hidden;
+    
+}
+
+.main_credentials .alertt {
+    background-color: #36454F !important;
+    color: #fff;
+    border: none;
+    border-radius: 3px 3px 0 0;
+    padding: 5px;
+    width: 35%;
+    font-size: 20px !important;
+}
+
+.main_credentials .alertt::after {
+    content: '';
+    position: absolute;
+    right: -9px;
+    top: -10px;
+    background: #fff;
+    width: 22px;
+    height: 118%;
+    transform: rotate(-28deg);
+
+}
+
+.credentials_form .form {
+ height: auto; 
+}
+
+.credentials_form .form::-webkit-scrollbar-thumb {
+    background: #000447;
+    border-radius: 10px 0 10px 0;
+}
+
+.credentials_form .form::-webkit-scrollbar {
+    width: .7rem;
+    background-color: none;
+}
+
+
+
+/*  */
+.credentials_form2 .tab_form {
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px #000;
+    margin: 10px 0;
+    margin: 10px 10px 0 10px;
+}
+
+.credentials_form2 .tab_form label {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ced4da;
+    background-color: #e2edf1;
+}
+
+.credentials_form2 .tab_form input ,.credentials_form2 .tab_form select{
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.credentials_form2 .tab_form select{
+    padding: 1px 35px 1px 10px;
+}
+
+
+.credentials_form2 .tab_form .form-check-input{
+    background-color: #fff !important;
+    padding: 7px ;
+}   
+
+
+.credentials_form2 .tab_form .form-check-input:checked[type=checkbox] {
+    background-color: #0d6efd !important;
+}
+
+.credentials_form2 .tab_form p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+.credentials_form2 .tab_form input::placeholder,.credentials_form2 .tab_form select::placeholder{
+    /* color: #fff; */
+    color: #000;
+}
+
+.credentials_form2 .tab_form input:focus,.credentials_form2 .tab_form select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+    background-color: #fff;
+    color: #000;
+}
+
+.credentials_form2 .tab_form .form-check {
+    padding-left: 0.3rem;
+}
+
+
+.credentials_form2 .tab_form .inner_ label {
+    width: 20%;
+    padding: 5px;
+    margin:0;
+    border-bottom: none;
+    border-right: 1px solid #ced4da ;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+
+.credentials_form2 .tab_form .inner_ label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    border-right: none;
+    background-color: #fff;
+}
+
+
+
+
+/*  */
+.credentials_form2 .tab_form.override label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.credentials_form2 .tab_form.override label:last-child {
+    width: 100%;
+}
+
+
+.credentials_form2 .tab_form.override .inner_ .right label {
+    display: block;
+    width: 100%;
+    text-align: end;
+
+}
+
+.credentials_form2 .tab_form.override .inner_ .right  span {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.credentials_form2 .tab_form.override .inner_ .right{
+    width: 16%;
+}
+
+.credentials_form2 .tab_form.override .inner_ .left  {
+    width: 84%;
+}
+
+.credentials_form2 .tab_form.override .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.credentials_form2 .tab_form.override .inner_ .left input,
+.credentials_form2 .tab_form.override .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+.credentials_form2 .tab_form.override .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+
+/* .Navv  */
+
+.main_credentials .navv {
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    background-color: #36454F;
+    z-index: 9;
+    padding: 0;
+    
+}
+
+.main_credentials .navv .navbar-nav a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0;
+}
+
+.main_credentials .navv a:hover,
+.main_credentials .navv a:active,
+.main_credentials .navv a:focus,
+.main_credentials .navv .navbar-nav a:hover,
+.main_credentials .navv .navbar-nav a:active,
+.main_credentials .navv .navbar-nav a:focus {
+    color: #fff !important; 
+
+}
+
+.credentials_form1 .tab_form {
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px #000;
+    margin: 10px 0;
+}
+.credentials_form1 .tab_form label {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ced4da;
+    background-color: #e2edf1;
+}   
+
+.credentials_form1 .tab_form .form-check-input{
+    background-color: #fff !important;
+    padding: 7px   ;
+}
+
+
+.credentials_form1 .tab_form input ,.credentials_form1 .tab_form select{
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.credentials_form1 .tab_form .form-floating {
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+.credentials_form1 .tab_form textarea {
+    height: 165px;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.credentials_form1 .tab_form .form-check-input{
+    background-color: #fff !important;
+}
+
+
+.credentials_form1 .tab_form .form-check-input:checked[type=checkbox] {
+    background-color: #0d6efd !important;
+}
+
+.credentials_form1 .tab_form p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.credentials_form1 .tab_form input::placeholder,.credentials_form1 .tab_form select::placeholder{
+    /* color: #fff; */
+    color: #000;
+}
+
+.credentials_form1 .tab_form input:focus,.credentials_form1 .tab_form select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+    background-color: #fff;
+    color: #000;
+}
+
+.credentials_form1 .tab_form .inner_ label {
+    width: 50%;
+    padding: 5px;
+    margin:0;
+    border-bottom: none;
+    border-right: 1px solid #ced4da ;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.credentials_form1 h5{
+    font-size: 13px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.credentials_form1 .para{
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.credentials_form1 .para1{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.credentials_form1 .tab_form .inner_ label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    border-right: none;
+    background-color: #fff;
+}
+
+
+.credentials_form1 .tab_form.overtime label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.credentials_form1 .tab_form.policy label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.credentials_form1 .delay label{
+    background-color: #fff;
+    border: none;
+    margin: 7px;
+    padding: 0;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+.credentials_form1 .bcd{
+    font-size: 10px;
+}
+
+.credentials_form1 .delay label input{
+    width: 10%;
+    margin: 0 10px;
+}
+
+.credentials_form1 .tab_form.policy .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+    font-size: 10px;
+
+}
+
+.credentials_form1 .tab_form.policy .inner_ .right{
+    width: 40%;
+}
+
+.credentials_form1 .tab_form.policy .inner_ .left  {
+    width: 60%;
+}
+
+.credentials_form1 .tab_form.policy .inner_ .left .left_  {
+    width: 75%;
+    gap: 10px;
+}
+
+.credentials_form1 .tab_form.policy .inner_ .left .left_ label{
+    text-align: start;
+}
+
+.credentials_form1 .tab_form.policy .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.credentials_form1 .tab_form.policy .inner_ .left input,
+.credentials_form1 .tab_form.policy .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .credentials_form1 .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.credentials_form1 .tab_form.policy .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+
+/*  */
+.credentials_form1 .tab_form.override label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.credentials_form1 .tab_form.override .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+
+}
+
+.credentials_form1 .tab_form.override .inner_ .right{
+    width: 16%;
+}
+
+.credentials_form1 .tab_form.override .inner_ .left  {
+    width: 84%;
+}
+
+.credentials_form1 .tab_form.override .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.credentials_form1 .tab_form.override .inner_ .left input,
+.credentials_form1 .tab_form.override .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .credentials_form1 .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.credentials_form1 .tab_form.override .inner_ label {
+    border: none;
+    font-weight: bold;
+}
+
+.credentials_form1 .tab_form.override .right.clr{
+    width: 30%;
+} 
+
+.credentials_form1 .tab_form.default .p_text{
+    margin-left: 10px;
+}
+
+.credentials_form1 .form_btn{
+    align-items: center;
+    font-size: 10px;
+}
+
+.credentials_form1 .inner_ p{
+    text-align: start;
+    white-space: nowrap;
+}
+
+.credentials_form1 .inner_ Button{
+    display: flex;
+}
+
+.credentials_form1 .inner_ .clients_instructions{
+    display: flex;
+    margin-left: 8px;
+}
+
+.main_credentials .burden_form1 .div__invoice{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.main_credentials .burden_form1 .div__invoice .invoice__button{
+    font-size: 10px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.main_credentials .burden_form1 .div__invoice .invoice__p{
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.credentials_form1 .inner_ .p_instructions{
+    font-size: 6px;
+    display: contents;
+    position: relative;
+}
+/* .credentials_form1 .scheduling  .inner_.head {
+    background-color: #ced4da;
+}
+
+.credentials_form1 .scheduling .right,.credentials_form1 .scheduling .left{
+    flex: 1;
+}
+
+.credentials_form1 .scheduling .mid{
+    flex: auto;
+} */
+
+
+/* .Navv  */
+
+.main_credentials .navv {
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    background-color: #36454F;
+    z-index: 9;
+    padding: 0;
+
+}
+
+.main_credentials .navv .navbar-nav a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0;
+}
+
+.main_credentials .navv a:hover,
+.main_credentials .navv a:active,
+.main_credentials .navv a:focus,
+.main_credentials .navv .navbar-nav a:hover,
+.main_credentials .navv .navbar-nav a:active,
+.main_credentials .navv .navbar-nav a:focus {
+    color: #fff !important;
+
+}
+
+/* .Navv  */
+
+@media only screen and (max-width: 1114px)  {
+    .main_credentials .alertt {
+        width: 35%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .main_credentials .tabbs1 {
+        width: 100% !important;
+    }
+
+    .main_credentials .cennt {
+        padding: 5%  20px 5% 20px ;
+    }
+
+    .navbar-nav {
+        flex-direction: row !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 650px) {
+    .main_credentials .alertt {
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 504px) {
+    .main_credentials .alertt {
+        width: 80%;
+    }
+  }

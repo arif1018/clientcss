@@ -1,0 +1,136 @@
+.reference_form .tab_form {
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px #000;
+    margin: 10px 0;
+}
+
+.reference_form .tab_form label {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ced4da;
+    background-color: #e2edf1;
+}
+
+.reference_form .tab_form input,
+.reference_form .tab_form select,
+.reference_form .tab_form textarea {
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.reference_form .tab_form .form-check-input {
+    background-color: #fff !important;
+    padding: 7px;
+}
+
+/* .reference_form .tab_form .textarea {
+    padding: 1px 10px !important;
+    margin: 0;
+    height: 100%;
+} */
+
+
+.reference_form .tab_form .form-check-input:checked[type=checkbox] {
+    background-color: #0d6efd !important;
+}
+
+.reference_form .tab_form p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.reference_form .tab_form input::placeholder,
+.reference_form .tab_form select::placeholder {
+    /* color: #fff; */
+    color: #000;
+}
+
+.reference_form .tab_form input:focus,
+.reference_form .tab_form select:focus,
+.reference_form .tab_form textarea:focus {
+    box-shadow: none;
+    border-color: #ced4da ;
+    background-color: #fff !important;
+    color: #000;
+}
+
+.reference_form .tab_form .inner_ label {
+    width: 20%;
+    padding: 5px;
+    margin: 0;
+    border-bottom: none;
+    border-right: 1px solid #ced4da;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+
+.reference_form .tab_form .inner_ label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    border-right: none;
+    background-color: #fff;
+}
+
+.reference_form .tab_form.policy label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.reference_form .tab_form.policy .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+    font-size: 12px;
+
+}
+
+.reference_form .tab_form.policy .inner_ .right {
+    width: 15%;
+}
+
+.reference_form .tab_form.policy .inner_ .left {
+    width: 85%;
+}
+
+.reference_form .tab_form.policy .inner_ .left .left_ {
+    width: 100%;
+    gap: 10px;
+}
+
+.reference_form .tab_form.policy .inner_ .left  label {
+    text-align: start;
+}
+
+.reference_form .tab_form.policy .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.reference_form .tab_form.policy .inner_ .left input,
+.reference_form .tab_form.policy .inner_ .right label {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .reference_form .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.reference_form .tab_form.policy .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}

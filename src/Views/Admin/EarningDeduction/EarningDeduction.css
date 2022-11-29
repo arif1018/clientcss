@@ -1,0 +1,316 @@
+.main_earning_Deducation {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main_earning_Deducation .cennt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding-top: 10%; */
+    padding-bottom: 5%;
+}
+
+
+
+.earning_deducation_form {
+    /* height: 400px; */
+    height: fit-content;
+    border-radius: 0.25rem;
+    box-shadow: 0.5px .5px 3px #000;
+    overflow: hidden;
+    
+}
+
+.main_earning_Deducation .alertt {
+    background-color: #36454F !important;
+    color: #fff;
+    border: none;
+    border-radius: 3px 3px 0 0;
+    padding: 5px;
+    width: 35%;
+    font-size: 20px !important;
+}
+
+.main_earning_Deducation .alertt::after {
+    content: '';
+    position: absolute;
+    right: -9px;
+    top: -10px;
+    background: #fff;
+    width: 22px;
+    height: 118%;
+    transform: rotate(-28deg);
+
+}
+
+.earning_deducation_form .form {
+ height: auto; 
+}
+
+.earning_deducation_form .form::-webkit-scrollbar-thumb {
+    background: #000447;
+    border-radius: 10px 0 10px 0;
+}
+
+.earning_deducation_form .form::-webkit-scrollbar {
+    width: .7rem;
+    background-color: none;
+}
+
+
+
+/*  */
+.earning_deducation_form2 .tab_form {
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px #000;
+    margin: 10px 0;
+    margin: 10px 10px 0 10px;
+}
+
+.earning_deducation_form2 .tab_form label {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ced4da;
+    background-color: #e2edf1;
+}
+
+.earning_deducation_form2 .tab_form input ,.earning_deducation_form2 .tab_form select{
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.earning_deducation_form2 .tab_form select{
+    padding: 1px 35px 1px 10px;
+}
+
+
+.earning_deducation_form2 .tab_form .form-check-input{
+    background-color: #fff !important;
+    padding: 7px ;
+}   
+
+
+.earning_deducation_form2 .tab_form .form-check-input:checked[type=checkbox] {
+    background-color: #0d6efd !important;
+}
+
+.earning_deducation_form2 .tab_form p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+.earning_deducation_form2 .tab_form input::placeholder,.earning_deducation_form2 .tab_form select::placeholder{
+    /* color: #fff; */
+    color: #000;
+}
+
+.earning_deducation_form2 .tab_form input:focus,.earning_deducation_form2 .tab_form select:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+    background-color: #fff;
+    color: #000;
+}
+
+.earning_deducation_form .tab_form .css-1s2u09g-control,.earning_deducation_form .tab_form .css-1s2u09g-control:hover {
+    font-size: 12px !important;
+}
+
+.earning_deducation_form2 .tab_form .inner_ label {
+    width: 20%;
+    padding: 5px;
+    margin:0;
+    border-bottom: none;
+    border-right: 1px solid #ced4da ;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+
+.earning_deducation_form2 .tab_form .inner_ label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    border-right: none;
+    background-color: #fff;
+}
+
+
+.earning_deducation_form2 .tab_form .overtime label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    text-align: start !important;
+    background-color: #fff;
+}
+
+/* .earning_deducation_form2 .tab_form.overtime  */
+
+.earning_deducation_form2 .tab_form.policy label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.earning_deducation_form2 .tab_form.policy .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+    font-size: 10px;
+
+}
+
+.earning_deducation_form2 .tab_form.policy .inner_ .right{
+    width: 40%;
+}
+
+.earning_deducation_form2 .tab_form.policy .inner_ .left  {
+    width: 60%;
+}
+
+.earning_deducation_form2 .tab_form.policy .inner_ .left .left_  {
+    width: 75%;
+    gap: 10px;
+}
+
+.earning_deducation_form2 .tab_form.policy .inner_ .left .left_ label{
+    text-align: start;
+}
+
+.earning_deducation_form2 .tab_form.policy .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.earning_deducation_form2 .tab_form.policy .inner_ .left input,
+.earning_deducation_form2 .tab_form.policy .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .earning_deducation_form2 .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.earning_deducation_form2 .tab_form.policy .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+
+/*  */
+.earning_deducation_form2 .tab_form.override label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.earning_deducation_form2 .tab_form.override .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+
+}
+
+.earning_deducation_form2 .tab_form.override .inner_ .right{
+    width: 30%;
+}
+
+.earning_deducation_form2 .tab_form.override .inner_ .left  {
+    width: 60%;
+}
+
+
+
+.earning_deducation_form2 .tab_form.override.more .inner_ .right{
+    width: 35%;
+}
+
+.earning_deducation_form2 .tab_form.override.more .inner_ .left  {
+    width: 65%;
+}
+
+.earning_deducation_form2 .tab_form.override .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.earning_deducation_form2 .tab_form.override .inner_ .left input,
+.earning_deducation_form2 .tab_form.override .inner_ .right label  {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .earning_deducation_form2 .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.earning_deducation_form2 .tab_form.override .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+.earning_deducation_form2 .tab_form.default label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.earning_deducation_form2 .tab_form.Option label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: auto;
+    padding: 5px  10px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+
+/* .Navv  */
+
+.main_earning_Deducation .navv {
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    background-color: #36454F;
+    z-index: 9;
+    padding: 0;
+    
+}
+
+.main_earning_Deducation .navv .navbar-nav a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0;
+}
+
+.main_earning_Deducation .navv a:hover,
+.main_earning_Deducation .navv a:active,
+.main_earning_Deducation .navv a:focus,
+.main_earning_Deducation .navv .navbar-nav a:hover,
+.main_earning_Deducation .navv .navbar-nav a:active,
+.main_earning_Deducation .navv .navbar-nav a:focus {
+    color: #fff !important; 
+
+}
+
+/* .Navv  */

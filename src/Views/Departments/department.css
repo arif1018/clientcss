@@ -1,0 +1,119 @@
+
+.main_department {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main_department .cennt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding-top: 10%; */
+    padding-bottom: 5%;
+}
+
+.form_department {
+    height: fit-content;
+    /* background-color: #ededef; */
+    border-radius: 0.25rem;
+    box-shadow: 0.5px .5px 3px #000;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+
+
+.form_department .alertt {
+    background-color: #36454F !important;
+    color: #fff;
+    border: none;
+    border-radius: 3px 3px 0 0;
+    padding: 5px 0;
+}
+
+
+.form_department .form {
+    height: auto;
+}
+
+.form_department .form::-webkit-scrollbar-thumb {
+    background: #000447;
+    border-radius: 10px 0 10px 0;
+}
+
+.form_department .form::-webkit-scrollbar {
+    width: .7rem;
+    background-color: none;
+}
+
+.form_department .form label {
+    font-size: .7rem;
+    font-weight: 500;
+    color: #36454F;
+    /* color: #fff; */
+}
+
+
+.form_department .form .form_check {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form_department .form input,
+.form_department .form select,
+.form_department .form textarea {
+    padding: 5px 10px;
+    font-size: .7rem;
+}
+textarea {
+    resize: none;
+}
+
+.form_department .form input:focus,
+.form_department .form select:focus,
+.form_department .form textarea:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.form-check-input[type=radio] {
+    padding: 7px !important;
+}
+
+.form_department .form .form_btn {
+    background-color: #36454F;
+    border: none;
+}
+
+
+.form_department .form .input_ {
+    width: 100% !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .main_dashboard .form_department {
+        width: 100% !important;
+    }
+
+    .main_dashboard .cennt {
+        padding: 0  20px ;
+    }
+  }
+
+
+  @media only screen and (max-width: 656px) {
+    .main_dashboard .form_department .form .input_group {
+        flex-direction: column;
+    }
+
+    .main_dashboard .form_department .form .input_group div {
+        width: 100%;
+    }
+  }

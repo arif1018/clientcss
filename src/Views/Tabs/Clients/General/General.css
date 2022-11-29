@@ -1,0 +1,373 @@
+.clientgeneral_form .tab_form {
+  border-radius: 1px;
+  box-shadow: 0px 0px 1px #000;
+  margin: 10px 0;
+}
+
+.clientgeneral_form .tab_form label {
+  width: 100%;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #ced4da;
+  background-color: #e2edf1;
+}
+
+.clientgeneral_form .tab_form .general_div {
+  width: 100%;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #ced4da;
+  background-color: #e2edf1;
+}
+
+.clientgeneral_form .tab_form .general_div label {
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.clientgeneral_form .tab_form .form-check-input {
+  background-color: #fff !important;
+  padding: 7px;
+}
+
+.clientgeneral_form .tab_form input,
+.clientgeneral_form .tab_form select,
+.clientgeneral_form .tab_form .inner_ input.selectFlield {
+  padding: 1px 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #ced4da;
+}
+
+.clientgeneral_form .tab_form .form-floating {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.clientgeneral_form .tab_form textarea {
+  height: 165px;
+  width: 100%;
+  padding: 5px 10px 0 10px !important;
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.clientgeneral_form .tab_form .form-check-input {
+  background-color: #fff !important;
+}
+
+.clientgeneral_form .tab_form .form-check-input:checked[type="checkbox"] {
+  background-color: #0d6efd !important;
+}
+
+.clientgeneral_form .tab_form p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.clientgeneral_form .tab_form input::placeholder,
+.clientgeneral_form .tab_form select::placeholder,
+.clientgeneral_form .tab_form .inner_ input.selectFlield {
+  /* color: #fff; */
+  color: #000;
+}
+
+.clientgeneral_form .tab_form input:focus,
+.clientgeneral_form .tab_form select:focus,
+.clientgeneral_form .tab_form textarea:focus,
+.clientgeneral_form .tab_form .inner_ input.selectFlield:focus {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+  background-color: #fff !important;
+  color: #000;
+}
+
+.clientgeneral_form .tab_form .inner_ .selectFlield input:focus-visible {
+  border-color: #ced4da !important;
+  outline: none;
+}
+.selectFlield {
+  position: relative;
+  width: 100%;
+}
+.selectFlield input {
+  padding-right: 20px !important;
+}
+
+.selectFlield .selectFlield_dropdown {
+  display: none;
+  position: absolute;
+  /* width: 20rem; */
+  top: 30px;
+  left: 6px;
+  z-index: 9999999;
+
+}
+
+.selectFlield .selectFlield_dropdown table tr th {
+  text-align: center  ;
+}
+
+/* .selectFlield .selectFlield_dropdown table tr ,.selectFlield .selectFlield_dropdown table tr td,.selectFlield .selectFlield_dropdown table tr th{
+  border: none !important;
+} */
+
+/* input.selectFlield::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  height: 0;
+} */
+
+/* .clientgeneral_form .tab_form .inner_ input.selectFlield {
+  position: relative;
+} */
+
+/* .clientgeneral_form .tab_form .inner_ input.selectFlield::before {
+    content: "hello" !important;
+    position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  text-rendering: auto;
+  right: 0;
+  top: 50%;
+  z-index: 9999;
+  transform: translateY(-50%);
+} */
+
+.clientgeneral_form .tab_form .inner_ label {
+  width: 30%;
+  padding: 5px;
+  margin: 0;
+  border-bottom: none;
+  border-right: 1px solid #ced4da;
+  text-align: end;
+  background-color: #fff;
+}
+
+.clientgeneral_form h5 {
+  font-size: 13px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.clientgeneral_form .para {
+  margin-left: 5px;
+  margin-top: -20px;
+}
+
+.clientgeneral_form .para1 {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.clientgeneral_form .tab_form .inner_ label:last-child {
+  border-bottom: none;
+  font-weight: 500;
+  border-right: none;
+  background-color: #fff;
+}
+
+.clientgeneral_form .tab_form.overtime label:last-child {
+  border-bottom: none;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.clientgeneral_form .tab_form.policy label:last-child {
+  border-top: 1px solid #ced4da;
+  border-bottom: none;
+  margin: 0;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.clientgeneral_form .delay label {
+  background-color: #fff;
+  border: none;
+  margin: 7px;
+  padding: 0;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.clientgeneral_form .bcd {
+  font-size: 10px;
+}
+
+.clientgeneral_form .delay label input {
+  width: 10%;
+  margin: 0 10px;
+}
+
+.clientgeneral_form .tab_form.policy .inner_ label {
+  display: block;
+  width: 100%;
+  text-align: end;
+  font-size: 10px;
+}
+
+.clientgeneral_form .tab_form.policy .inner_ .right {
+  width: 40%;
+}
+
+.clientgeneral_form .tab_form.policy .inner_ .left {
+  width: 60%;
+}
+
+.clientgeneral_form .tab_form.policy .inner_ .left .left_ {
+  width: 75%;
+  gap: 10px;
+}
+
+.clientgeneral_form .tab_form.policy .inner_ .left .left_ label {
+  text-align: start;
+}
+
+.clientgeneral_form .tab_form.policy .inner_ .right {
+  border-right: 1px solid #ced4da !important;
+  background-color: #fff;
+  /* background-color: #d5f3ff; */
+}
+
+.clientgeneral_form .tab_form.policy .inner_ .left input,
+.clientgeneral_form .tab_form.policy .inner_ .right label {
+  margin: 0 !important;
+  /* margin: 10px 0; */
+}
+
+/* .clientgeneral_form .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.clientgeneral_form .tab_form.policy .inner_ label {
+  border: none;
+  font-weight: bold;
+}
+
+/*  */
+.clientgeneral_form .tab_form.override label:last-child {
+  border-top: 1px solid #ced4da;
+  border-bottom: none;
+  margin: 0;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.clientgeneral_form .tab_form.override .inner_ label {
+  display: block;
+  width: 100%;
+  text-align: end;
+}
+
+.clientgeneral_form .tab_form.override .inner_ .right {
+  width: 16%;
+}
+
+.clientgeneral_form .tab_form.override .inner_ .left {
+  width: 84%;
+}
+
+.clientgeneral_form .tab_form.override .inner_ .right {
+  border-right: 1px solid #ced4da !important;
+  background-color: #fff;
+  /* background-color: #d5f3ff; */
+}
+
+.clientgeneral_form .tab_form.override .inner_ .left input,
+.clientgeneral_form .tab_form.override .inner_ .right label {
+  margin: 0 !important;
+  /* margin: 10px 0; */
+}
+
+/* .clientgeneral_form .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.clientgeneral_form .tab_form.override .inner_ label {
+  border: none;
+  font-weight: bold;
+}
+
+.clientgeneral_form .tab_form.override .right.clr {
+  width: 30%;
+}
+
+.clientgeneral_form .tab_form.default .p_text {
+  margin-left: 10px;
+}
+
+.clientgeneral_form .form_btn {
+  align-items: center;
+  font-size: 10px;
+}
+
+.clientgeneral_form .inner_ p {
+  text-align: start;
+  white-space: nowrap;
+}
+
+.clientgeneral_form .inner_ Button {
+  display: flex;
+}
+
+.clientgeneral_form .inner_ .clients_general {
+  display: flex;
+  margin-left: 8px;
+}
+
+.clientgeneral_form .inner_ .p_general {
+  font-size: 6px;
+  display: contents;
+  position: relative;
+}
+
+.clientgeneral_form .inner_ .mailing button {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #e2edf1 !important;
+  color: #000 !important;
+  border: 1px solid transparent;
+}
+
+.clientgeneral_form .inner_ .mailing button:focus {
+  box-shadow: none;
+  background-color: #e2edf1;
+  color: #000;
+}
+
+.clientgeneral_form .mailing button {
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #36454f !important;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+
+.clientgeneral_form .mailing button:focus {
+  box-shadow: none;
+  background-color: #e2edf1;
+  color: #000;
+}
+
+/* .clientgeneral_form .scheduling  .inner_.head {
+    background-color: #ced4da;
+}
+
+.clientgeneral_form .scheduling .right,.clientgeneral_form .scheduling .left{
+    flex: 1;
+}
+
+.clientgeneral_form .scheduling .mid{
+    flex: auto;
+} */

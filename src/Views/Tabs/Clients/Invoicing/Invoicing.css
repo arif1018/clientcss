@@ -1,0 +1,196 @@
+.invoicing_form .tab_form {
+    border-radius: 1px;
+    box-shadow: 0px 0px 1px #000;
+    margin: 10px 0;
+}
+
+.invoicing_form .tab_form label {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid #ced4da;
+    background-color: #e2edf1;
+}
+
+.invoicing_form .tab_form input,
+.invoicing_form .tab_form select,
+.invoicing_form .tab_form textarea {
+    padding: 1px 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.invoicing_form .tab_form .form-check-input {
+    background-color: #fff !important;
+    padding: 7px;
+}
+
+/* .invoicing_form .tab_form .textarea {
+    padding: 1px 10px !important;
+    margin: 0;
+    height: 100%;
+} */
+
+
+.invoicing_form .tab_form .form-check-input:checked[type=checkbox] {
+    background-color: #0d6efd !important;
+}
+
+.invoicing_form .tab_form p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.invoicing_form .tab_form input::placeholder,
+.invoicing_form .tab_form select::placeholder {
+    /* color: #fff; */
+    color: #000;
+}
+
+.invoicing_form .tab_form input:focus,
+.invoicing_form .tab_form select:focus,
+.invoicing_form .tab_form textarea:focus {
+    box-shadow: none;
+    border-color: #ced4da ;
+    background-color: #fff !important;
+    color: #000;
+}
+
+.invoicing_form .tab_form .inner_ label {
+    width: 20%;
+    padding: 5px;
+    margin: 0;
+    border-bottom: none;
+    border-right: 1px solid #ced4da;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+
+
+.invoicing_form .tab_form .inner_ label:last-child {
+    border-bottom: none;
+    font-weight: 500;
+    border-right: none;
+    background-color: #fff;
+}
+
+.invoicing_form .tab_form.policy label:last-child {
+    border-top: 1px solid #ced4da;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #fff;
+}
+
+
+.invoicing_form .tab_form.policy .inner_ label {
+    display: block;
+    width: 100%;
+    text-align: end;
+    font-size: 12px;
+
+}
+
+.invoicing_form .tab_form.phy_add .inner_ .right {
+    width: 35% !important;
+}
+
+.invoicing_form .tab_form.phy_add .inner_ .left {
+    width: 65% !important;
+}
+
+.invoicing_form .tab_form.invoice_opt .inner_ .right {
+    width: 30% !important;
+}
+
+.invoicing_form .tab_form.invoice_opt .inner_ .left {
+    width: 70% !important;
+}
+
+.invoicing_form .tab_form.Print_opt .inner_ .right {
+    width: 45% !important;
+}
+
+.invoicing_form .tab_form.Print_opt .inner_ .left {
+    width: 55% !important;
+}
+
+.invoicing_form .tab_form.policy .inner_ .left .left_ {
+    width: 100%;
+    gap: 10px;
+}
+
+.invoicing_form .tab_form.policy .inner_ .left  label {
+    text-align: start;
+}
+
+.invoicing_form .tab_form.policy .inner_ .right {
+    border-right: 1px solid #ced4da !important;
+    background-color: #fff;
+    /* background-color: #d5f3ff; */
+}
+
+.invoicing_form .tab_form.policy .inner_ .left input,
+.invoicing_form .tab_form.policy .inner_ .right label {
+    margin: 0 !important;
+    /* margin: 10px 0; */
+}
+
+/* .invoicing_form .tab_form.policy .inner_ .right label {
+    background-color: #d5f3ff;
+} */
+
+.invoicing_form .tab_form.policy .inner_ label {
+    border: none;
+    font-weight: bold;
+
+}
+
+
+.invoicing_form .mailing button {
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #36454f !important;
+    color: #fff !important;
+    border: 1px solid transparent;
+}
+
+
+.invoicing_form .mailing button:focus {
+    box-shadow: none;
+    background-color: #e2edf1;
+    color: #000;
+}
+
+
+.invoicing_form ul li {
+    border: none !important;
+    border-left: 2px solid #e2edf1 !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.invoicing_form ul li:first-child{
+    border-left: none !important;
+    
+}
+
+.invoicing_form  .inner_ .left .form_check label {
+    font-size: 10px;
+}
+
+
+/* .invoicing_form  .inner_ .left .form_check input {
+    width: 1rem !important;
+    height: 1rem !important;
+} */
+
+.form-check-input[type=radio] {
+    /* padding: 7px !important; */
+    border-radius: 50% !important;
+}
